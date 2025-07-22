@@ -1,5 +1,6 @@
 # VLSI-Mini-Projects
 Contains mini projects on VLSI using verilog HDL 
+
 This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog HDL. The ALU performs common arithmetic and logical operations based on a 3-bit control input (ALUControl) ,by taking 4 bit inputs A and B , it displays the output as ALUResult
 
 | ALUControl | Operation | Description             |
@@ -16,7 +17,9 @@ This project implements a 4-bit Arithmetic Logic Unit (ALU) using Verilog HDL. T
 Simulation: used Icarus verilog + GTKwave Through Command promt
 
 iverilog -o sim.out ALU4bit.v ALU4bitTb.v
+
 vvp sim.out
+
 gtkwave ALU4bitTb.vcd
 
 Output waveform:
